@@ -11,8 +11,8 @@ public class test_scrollbars extends TestBase {
         page.navigate("http://uitestingplayground.com/scrollbars");
 
         ScrollBarPage scrollBarPage = new ScrollBarPage(page);
-        // Set a timeout so we can se that actual scroll
-        scrollBarPage.getHidingButton().scrollIntoViewIfNeeded(new Locator.ScrollIntoViewIfNeededOptions().setTimeout(2000));
+
+        scrollBarPage.getHidingButton().scrollIntoViewIfNeeded(new Locator.ScrollIntoViewIfNeededOptions());
 
         scrollBarPage.getHidingButton().click();
     }

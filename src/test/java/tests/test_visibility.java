@@ -28,8 +28,10 @@ public class test_visibility extends TestBase {
 
         // this will only assert 0 visibility but barely visible obj will pass.
         assertThat(visibilityPage.getOpacityButton()).hasAttribute("style","opacity: 0;");
-        // not sure how to tackle this. Playwright does not have a native way
+        // not sure how to tackle this. Playwright does not seem to have a native way
         // I guess you could just try to click it and handle the timeout exception but that's ugly.
+        // Only thing i could find is ugly uses of ElementHandle which in turn is deprecated.
+
         //assertThat(visibilityPage.overlappedButton)
         assertThat(visibilityPage.getOffscreenButton()).not().isInViewport();
 

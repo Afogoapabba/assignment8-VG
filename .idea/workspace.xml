@@ -5,28 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e592474b-a139-454e-b1fe-a34de7cb5ff0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ClickPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ClientDelayPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/MouseOverPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProgressBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ScrollBarPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TextInputPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/VisibilityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testbase/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_click.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_clientdelay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_mouse_over.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_progressbar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_scrollbars.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_text_input.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_visibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ClassAttrPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_class_attr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/test_loaddelay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testbase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testbase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/test_mouse_over.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/test_mouse_over.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/test_scrollbars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/test_scrollbars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/test_text_input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/test_text_input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/test_visibility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/test_visibility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +53,22 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.tests in assignment8-VG">
+    <configuration name="test_class_attr.clickButton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="assignment8-VG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.test_class_attr" />
+      <option name="METHOD_NAME" value="clickButton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test_click.try_click" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment8-VG" />
       <option name="PACKAGE_NAME" value="tests" />
@@ -76,31 +79,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_clientdelay.testPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test_loaddelay.test_loaddelay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment8-VG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.test_clientdelay" />
-      <option name="METHOD_NAME" value="testPerformance" />
+      <option name="MAIN_CLASS_NAME" value="tests.test_loaddelay" />
+      <option name="METHOD_NAME" value="test_loaddelay" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_mouse_over.clickLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test_scrollbars.scrollIntoView" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="assignment8-VG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.test_mouse_over" />
-      <option name="METHOD_NAME" value="clickLink" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test_progressbar.stop_at_75" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="assignment8-VG" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.test_progressbar" />
-      <option name="METHOD_NAME" value="stop_at_75" />
+      <option name="MAIN_CLASS_NAME" value="tests.test_scrollbars" />
+      <option name="METHOD_NAME" value="scrollIntoView" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -117,10 +122,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.tests in assignment8-VG" />
+        <item itemvalue="JUnit.test_scrollbars.scrollIntoView" />
+        <item itemvalue="JUnit.test_class_attr.clickButton" />
+        <item itemvalue="JUnit.test_loaddelay.test_loaddelay" />
         <item itemvalue="JUnit.test_click.try_click" />
-        <item itemvalue="JUnit.test_progressbar.stop_at_75" />
-        <item itemvalue="JUnit.test_mouse_over.clickLink" />
-        <item itemvalue="JUnit.test_clientdelay.testPerformance" />
       </list>
     </recent_temporary>
   </component>

@@ -16,7 +16,7 @@ public class test_text_input extends TestBase {
         String input = "TEST123";
         textInputPage.getTextBox().fill(input);
         textInputPage.getButton().click();
-
+        // Check that button name changed
         assertThat(textInputPage.getButton()).hasText(input);
 
 
